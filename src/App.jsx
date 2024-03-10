@@ -1,5 +1,5 @@
 import { Brand, CallToAction, NavBar } from './components';
-import { Features, Header, Possibility, WhatGPT3 } from './containers';
+import { Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
 import './App.css';
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <Features />
       <Possibility />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
